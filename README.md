@@ -152,7 +152,8 @@ If you expect to update often, symlink instead of copy:
 
 ```bash
 git clone https://github.com/ertugrul-dmr/clean-code-skills.git ~/src/clean-code-skills
-cd ~/src/clean-code-skills/skills
+# Pick one track — swap `python` for `typescript` to use the TS track.
+cd ~/src/clean-code-skills/skills/python
 for d in */; do ln -sfn "$PWD/${d%/}" "$HOME/.claude/skills/${d%/}"; done
 ```
 
@@ -401,7 +402,7 @@ This repository does not ship a `scripts/` folder or lint scripts by default.
 If you want stricter enforcement, create your own scripts inside the skill folder.
 
 ```
-skills/python-clean-code/
+skills/python/python-clean-code/
 ├── SKILL.md
 └── scripts/
     └── lint.py
