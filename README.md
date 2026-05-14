@@ -110,6 +110,12 @@ cp -r /tmp/clean-code-skills/skills/typescript/* ~/.gemini/antigravity/skills/ &
 rm -rf /tmp/clean-code-skills
 ```
 
+**Quick install with `npx`**:
+
+```bash
+npx skills add jemanuelp/clean-code-skills
+```
+
 ### Anthropic Claude Code
 
 **Project-specific**:
@@ -151,6 +157,12 @@ git clone https://github.com/ertugrul-dmr/clean-code-skills.git /tmp/clean-code-
 mkdir -p ~/.claude/skills && \
 cp -r /tmp/clean-code-skills/skills/typescript/* ~/.claude/skills/ && \
 rm -rf /tmp/clean-code-skills
+```
+
+**Quick install with `npx`**:
+
+```bash
+npx skills add jemanuelp/clean-code-skills
 ```
 
 **Verify**
